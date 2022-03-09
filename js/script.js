@@ -32,11 +32,11 @@ const team = [
 ];
 
 //! Milestone 1
-// for (let i = 0; i < team.length; i = i + 1){
-//     console.log(team[i].name);
-//     console.log(team[i].role);
-//     console.log(team[i].image);
-// };
+for (let i = 0; i < team.length; i = i + 1){
+    console.log(team[i].name);
+    console.log(team[i].role);
+    console.log(team[i].image);
+};
 
 //!Milestone 2 
 let person;
