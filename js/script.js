@@ -32,15 +32,29 @@ const team = [
 ];
 
 //! Milestone 1
-for (let i = 0; i < team.length; i = i + 1){
-    console.log(team[i].name);
-    console.log(team[i].role);
-    console.log(team[i].image);
-};
+// for (let i = 0; i < team.length; i = i + 1){
+//     console.log(team[i].name);
+//     console.log(team[i].role);
+//     console.log(team[i].image);
+// };
 
 //!Milestone 2 
+let person;
+
+let workRole;
+
+let photo;
+
+const objectWrap = document.getElementsByClassName("object-wrap");
+// console.log(objectWrap);
+
 for (let i = 0; i < team.length; i = i + 1){
-    console.log(team[i].name);
-    // console.log(team[i].role);
-    // console.log(team[i].image);
+    person = team[i].name
+    console.log(person);
+    workRole = team[i].role;
+    console.log(workRole);
+    photo = team[i].image
+    console.log(photo);
+
+    objectWrap[i].innerHTML = person + ", " + workRole + ", " + photo;
 };
